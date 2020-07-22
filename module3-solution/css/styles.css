@@ -1,0 +1,74 @@
+
+
+body {
+  font-size: 16px;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+  box-sizing: border-box;
+}
+
+
+/* Header */
+
+.container-fluid {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border: 2px solid black;
+}
+
+.navbar-brand h1{
+	color: black;
+	margin-top: -10px;
+	margin-left: 8px;
+	font-size: 1.75em;
+}
+
+.navbar-nav {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+li {
+	text-align: center;
+	font-size: 1.2;
+}
+
+li hr {
+	border: 0.5px solid black;
+	background: black;
+	width: 99%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+ul {
+	border: 2px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+h2 {
+	margin: 30px 30px 30px 30px;
+}
+
+/* Main content */
+
+#main-content {
+	background-color: grey;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-clip: content-box;
+}
+
+#main-content p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
